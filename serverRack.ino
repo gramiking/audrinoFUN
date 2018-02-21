@@ -43,8 +43,7 @@ void setup() {
   FastLED.setBrightness(BRIGHTNESS);
 
   //Ethernet Setup
-  byte mac[] = { 0x32, 0xCE, 0xBE, 0xAE, (unsigned char)0xD23, 0x12 };
-  //byte mac[] = { 0x32, 0xCE, 0xBE, 0xAE, 0x23, 0x12 };
+  byte mac[] = { 0x32, 0xCE, 0xBE, 0xAE, 0x23, 0x12 };
   IPAddress ip(X, X, X, X); // change the X to your IP. ie: 192.168.1.1
   // initialize the ethernet device
   Ethernet.begin(mac, ip);
