@@ -106,6 +106,7 @@ void loop()
     state = digitalRead(SENSOR_PIN);
     //Serial.println(state);
         if (state == HIGH){
+     gHue = 0;
      r = 255;
      g = 255;
      b = 255;
